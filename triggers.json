@@ -1,0 +1,540 @@
+{
+  "new_starred": {
+    "label": "New Starred Repo", 
+    "help_text": "Triggers when a repo is starred.", 
+    "noun": "Starred", 
+    "important": true, 
+    "hide": false, 
+    "data_source": "Polling", 
+    "resource_url": "https://api.github.com/user/starred", 
+    "custom_fields_url": null, 
+    "hook_event": null, 
+    "hook_static_directions": "Log into your service and paste the below URL into the webhook setup field.", 
+    "sample_result_fields": [
+      {
+        "type": "unicode", 
+        "key": "archive_url"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "assignees_url"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "blobs_url"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "branches_url"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "clone_url"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "collaborators_url"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "comments_url"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "commits_url"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "compare_url"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "contents_url"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "contributors_url"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "created_at"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "default_branch"
+      }, 
+      {
+        "important": true, 
+        "type": "unicode", 
+        "key": "description", 
+        "label": "Description"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "downloads_url"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "events_url"
+      }, 
+      {
+        "type": "bool", 
+        "key": "fork"
+      }, 
+      {
+        "type": "int", 
+        "key": "forks"
+      }, 
+      {
+        "type": "int", 
+        "key": "forks_count"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "forks_url"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "full_name"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "git_commits_url"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "git_refs_url"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "git_tags_url"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "git_url"
+      }, 
+      {
+        "type": "bool", 
+        "key": "has_downloads"
+      }, 
+      {
+        "type": "bool", 
+        "key": "has_issues"
+      }, 
+      {
+        "type": "bool", 
+        "key": "has_pages"
+      }, 
+      {
+        "type": "bool", 
+        "key": "has_wiki"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "homepage"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "hooks_url"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "html_url"
+      }, 
+      {
+        "type": "int", 
+        "key": "id"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "issue_comment_url"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "issue_events_url"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "issues_url"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "keys_url"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "labels_url"
+      }, 
+      {
+        "important": true, 
+        "type": "unicode", 
+        "key": "language", 
+        "label": "Language"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "languages_url"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "merges_url"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "milestones_url"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "mirror_url"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "name"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "notifications_url"
+      }, 
+      {
+        "type": "int", 
+        "key": "open_issues"
+      }, 
+      {
+        "type": "int", 
+        "key": "open_issues_count"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "owner__avatar_url"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "owner__events_url"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "owner__followers_url"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "owner__following_url"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "owner__gists_url"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "owner__gravatar_id"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "owner__html_url"
+      }, 
+      {
+        "type": "int", 
+        "key": "owner__id"
+      }, 
+      {
+        "important": true, 
+        "type": "unicode", 
+        "key": "owner__login", 
+        "label": "Owner"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "owner__organizations_url"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "owner__received_events_url"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "owner__repos_url"
+      }, 
+      {
+        "type": "bool", 
+        "key": "owner__site_admin"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "owner__starred_url"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "owner__subscriptions_url"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "owner__type"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "owner__url"
+      }, 
+      {
+        "type": "bool", 
+        "key": "permissions__admin"
+      }, 
+      {
+        "type": "bool", 
+        "key": "permissions__pull"
+      }, 
+      {
+        "type": "bool", 
+        "key": "permissions__push"
+      }, 
+      {
+        "type": "bool", 
+        "key": "private"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "pulls_url"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "pushed_at"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "releases_url"
+      }, 
+      {
+        "type": "int", 
+        "key": "size"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "ssh_url"
+      }, 
+      {
+        "type": "int", 
+        "key": "stargazers_count"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "stargazers_url"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "statuses_url"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "subscribers_url"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "subscription_url"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "svn_url"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "tags_url"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "teams_url"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "trees_url"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "updated_at"
+      }, 
+      {
+        "important": true, 
+        "type": "unicode", 
+        "key": "url", 
+        "label": "URL"
+      }, 
+      {
+        "type": "int", 
+        "key": "watchers"
+      }, 
+      {
+        "type": "int", 
+        "key": "watchers_count"
+      }
+    ], 
+    "fields": {}
+  }, 
+  "test_trigger": {
+    "label": "User Exists", 
+    "help_text": "Test trigger", 
+    "noun": "User", 
+    "important": false, 
+    "hide": true, 
+    "data_source": "Polling", 
+    "resource_url": "https://api.github.com/user", 
+    "custom_fields_url": null, 
+    "hook_event": null, 
+    "hook_static_directions": "Log into your service and paste the below URL into the webhook setup field.", 
+    "sample_result_fields": [
+      {
+        "type": "unicode", 
+        "key": "avatar_url"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "bio"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "blog"
+      }, 
+      {
+        "type": "int", 
+        "key": "collaborators"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "company"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "created_at"
+      }, 
+      {
+        "type": "int", 
+        "key": "disk_usage"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "email"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "events_url"
+      }, 
+      {
+        "type": "int", 
+        "key": "followers"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "followers_url"
+      }, 
+      {
+        "type": "int", 
+        "key": "following"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "following_url"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "gists_url"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "gravatar_id"
+      }, 
+      {
+        "type": "bool", 
+        "key": "hireable"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "html_url"
+      }, 
+      {
+        "type": "int", 
+        "key": "id"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "location"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "login"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "name"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "organizations_url"
+      }, 
+      {
+        "type": "int", 
+        "key": "owned_private_repos"
+      }, 
+      {
+        "type": "int", 
+        "key": "plan__collaborators"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "plan__name"
+      }, 
+      {
+        "type": "int", 
+        "key": "plan__private_repos"
+      }, 
+      {
+        "type": "int", 
+        "key": "plan__space"
+      }, 
+      {
+        "type": "int", 
+        "key": "private_gists"
+      }, 
+      {
+        "type": "int", 
+        "key": "public_gists"
+      }, 
+      {
+        "type": "int", 
+        "key": "public_repos"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "received_events_url"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "repos_url"
+      }, 
+      {
+        "type": "bool", 
+        "key": "site_admin"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "starred_url"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "subscriptions_url"
+      }, 
+      {
+        "type": "int", 
+        "key": "total_private_repos"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "type"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "updated_at"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "url"
+      }
+    ], 
+    "fields": {}
+  }
+}
