@@ -188,8 +188,10 @@
         "key": "mirror_url"
       }, 
       {
+        "important": true, 
         "type": "unicode", 
-        "key": "name"
+        "key": "name", 
+        "label": "Name"
       }, 
       {
         "type": "unicode", 
