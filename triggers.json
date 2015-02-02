@@ -94,8 +94,10 @@
         "key": "forks_url"
       }, 
       {
+        "important": true, 
         "type": "unicode", 
-        "key": "full_name"
+        "key": "full_name", 
+        "label": "Full Name"
       }, 
       {
         "type": "unicode", 
