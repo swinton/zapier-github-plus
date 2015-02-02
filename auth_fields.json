@@ -1,0 +1,22 @@
+{
+  "username": {
+    "label": "Username", 
+    "required": true, 
+    "help_text": null, 
+    "default": null, 
+    "choices": null, 
+    "sort": null, 
+    "type": "Unicode", 
+    "input_format": null
+  }, 
+  "password": {
+    "label": "Password", 
+    "required": true, 
+    "help_text": null, 
+    "default": null, 
+    "choices": null, 
+    "sort": null, 
+    "type": "Password", 
+    "input_format": null
+  }
+}
