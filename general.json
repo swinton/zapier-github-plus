@@ -1,0 +1,13 @@
+{
+  "title": "GitHub Plus", 
+  "description": "Extra GitHub triggers", 
+  "image_url": "https://zapier.cachefly.net/storage/developer/19df4754833a6ac87d06d2468936c9b5.jpg", 
+  "test_trigger_key": "test_trigger", 
+  "auth_type": "Basic Auth", 
+  "auth_mapping": {
+    "username": "{{username}}", 
+    "password": "x-oauth-basic"
+  }, 
+  "subscribe_url": "", 
+  "unsubscribe_url": ""
+}
