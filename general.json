@@ -9,5 +9,7 @@
     "password": "x-oauth-basic"
   }, 
   "subscribe_url": "", 
-  "unsubscribe_url": ""
+  "unsubscribe_url": "", 
+  "their_user_count": 1, 
+  "homepage_url": null
 }
