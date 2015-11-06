@@ -1,4 +1,175 @@
 {
+  "test_trigger": {
+    "label": "User Exists", 
+    "help_text": "Test trigger", 
+    "noun": "User", 
+    "important": false, 
+    "hide": true, 
+    "data_source": "Polling", 
+    "resource_url": "https://api.github.com/user", 
+    "custom_fields_url": null, 
+    "hook_event": null, 
+    "hook_static_directions": "Log into your service and paste the below URL into the webhook setup field.", 
+    "sample_result_fields": [
+      {
+        "type": "unicode", 
+        "key": "avatar_url"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "bio"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "blog"
+      }, 
+      {
+        "type": "int", 
+        "key": "collaborators"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "company"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "created_at"
+      }, 
+      {
+        "type": "int", 
+        "key": "disk_usage"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "email"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "events_url"
+      }, 
+      {
+        "type": "int", 
+        "key": "followers"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "followers_url"
+      }, 
+      {
+        "type": "int", 
+        "key": "following"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "following_url"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "gists_url"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "gravatar_id"
+      }, 
+      {
+        "type": "bool", 
+        "key": "hireable"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "html_url"
+      }, 
+      {
+        "type": "int", 
+        "key": "id"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "location"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "login"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "name"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "organizations_url"
+      }, 
+      {
+        "type": "int", 
+        "key": "owned_private_repos"
+      }, 
+      {
+        "type": "int", 
+        "key": "plan__collaborators"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "plan__name"
+      }, 
+      {
+        "type": "int", 
+        "key": "plan__private_repos"
+      }, 
+      {
+        "type": "int", 
+        "key": "plan__space"
+      }, 
+      {
+        "type": "int", 
+        "key": "private_gists"
+      }, 
+      {
+        "type": "int", 
+        "key": "public_gists"
+      }, 
+      {
+        "type": "int", 
+        "key": "public_repos"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "received_events_url"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "repos_url"
+      }, 
+      {
+        "type": "bool", 
+        "key": "site_admin"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "starred_url"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "subscriptions_url"
+      }, 
+      {
+        "type": "int", 
+        "key": "total_private_repos"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "type"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "updated_at"
+      }, 
+      {
+        "type": "unicode", 
+        "key": "url"
+      }
+    ], 
+    "fields": {}
+  }, 
   "new_starred": {
     "label": "New Starred Repo", 
     "help_text": "Triggers when a repo is starred.", 
@@ -366,177 +537,6 @@
       {
         "type": "int", 
         "key": "watchers_count"
-      }
-    ], 
-    "fields": {}
-  }, 
-  "test_trigger": {
-    "label": "User Exists", 
-    "help_text": "Test trigger", 
-    "noun": "User", 
-    "important": false, 
-    "hide": true, 
-    "data_source": "Polling", 
-    "resource_url": "https://api.github.com/user", 
-    "custom_fields_url": null, 
-    "hook_event": null, 
-    "hook_static_directions": "Log into your service and paste the below URL into the webhook setup field.", 
-    "sample_result_fields": [
-      {
-        "type": "unicode", 
-        "key": "avatar_url"
-      }, 
-      {
-        "type": "unicode", 
-        "key": "bio"
-      }, 
-      {
-        "type": "unicode", 
-        "key": "blog"
-      }, 
-      {
-        "type": "int", 
-        "key": "collaborators"
-      }, 
-      {
-        "type": "unicode", 
-        "key": "company"
-      }, 
-      {
-        "type": "unicode", 
-        "key": "created_at"
-      }, 
-      {
-        "type": "int", 
-        "key": "disk_usage"
-      }, 
-      {
-        "type": "unicode", 
-        "key": "email"
-      }, 
-      {
-        "type": "unicode", 
-        "key": "events_url"
-      }, 
-      {
-        "type": "int", 
-        "key": "followers"
-      }, 
-      {
-        "type": "unicode", 
-        "key": "followers_url"
-      }, 
-      {
-        "type": "int", 
-        "key": "following"
-      }, 
-      {
-        "type": "unicode", 
-        "key": "following_url"
-      }, 
-      {
-        "type": "unicode", 
-        "key": "gists_url"
-      }, 
-      {
-        "type": "unicode", 
-        "key": "gravatar_id"
-      }, 
-      {
-        "type": "bool", 
-        "key": "hireable"
-      }, 
-      {
-        "type": "unicode", 
-        "key": "html_url"
-      }, 
-      {
-        "type": "int", 
-        "key": "id"
-      }, 
-      {
-        "type": "unicode", 
-        "key": "location"
-      }, 
-      {
-        "type": "unicode", 
-        "key": "login"
-      }, 
-      {
-        "type": "unicode", 
-        "key": "name"
-      }, 
-      {
-        "type": "unicode", 
-        "key": "organizations_url"
-      }, 
-      {
-        "type": "int", 
-        "key": "owned_private_repos"
-      }, 
-      {
-        "type": "int", 
-        "key": "plan__collaborators"
-      }, 
-      {
-        "type": "unicode", 
-        "key": "plan__name"
-      }, 
-      {
-        "type": "int", 
-        "key": "plan__private_repos"
-      }, 
-      {
-        "type": "int", 
-        "key": "plan__space"
-      }, 
-      {
-        "type": "int", 
-        "key": "private_gists"
-      }, 
-      {
-        "type": "int", 
-        "key": "public_gists"
-      }, 
-      {
-        "type": "int", 
-        "key": "public_repos"
-      }, 
-      {
-        "type": "unicode", 
-        "key": "received_events_url"
-      }, 
-      {
-        "type": "unicode", 
-        "key": "repos_url"
-      }, 
-      {
-        "type": "bool", 
-        "key": "site_admin"
-      }, 
-      {
-        "type": "unicode", 
-        "key": "starred_url"
-      }, 
-      {
-        "type": "unicode", 
-        "key": "subscriptions_url"
-      }, 
-      {
-        "type": "int", 
-        "key": "total_private_repos"
-      }, 
-      {
-        "type": "unicode", 
-        "key": "type"
-      }, 
-      {
-        "type": "unicode", 
-        "key": "updated_at"
-      }, 
-      {
-        "type": "unicode", 
-        "key": "url"
       }
     ], 
     "fields": {}
